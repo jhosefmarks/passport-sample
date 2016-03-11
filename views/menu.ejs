@@ -1,0 +1,30 @@
+<!-- views/login.ejs -->
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <style>
+        body {
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+<div class="col-sm-6 col-sm-offset-3">
+
+    <div class="page-header text-center">
+        <a href="/profile" class="btn btn-default btn-sm">Profile Page</a>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+    
+    <h1><span class="fa fa-bars"></span> Menu: <%= user.facebook.name %></h1>
+
+</div>
+
+</div>
+</body>
+</html>
